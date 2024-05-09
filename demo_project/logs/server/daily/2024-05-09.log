@@ -971,3 +971,251 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T0
 info: Connected to the database. {"timestamp":"2024-05-09T08:00:37.016Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T08:00:44.773Z"}
 info: Connected to the database. {"timestamp":"2024-05-09T08:00:45.021Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T10:09:53.872Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T10:10:26.514Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T10:10:39.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T10:10:52.737Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T10:10:52.907Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T10:47:59.083Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T10:48:06.580Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T10:48:06.754Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T10:48:09.561Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T10:48:09.748Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T10:48:47.264Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T10:48:47.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T10:50:01.076Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T10:50:01.218Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T10:50:07.988Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T10:50:08.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T10:50:22.746Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T10:50:22.908Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:05:30.543Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:05:30.724Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:05:36.531Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:05:36.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:05:41.398Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:05:41.545Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:05:44.352Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:05:44.519Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:05:50.596Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:05:55.022Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:05:55.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:05:57.494Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:05:57.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:06:15.647Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:06:15.819Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:06:25.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:06:29.264Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:06:29.404Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:06:33.472Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:06:38.905Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:06:39.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:07:10.679Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:07:10.817Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string.min is not a function
+    at newUserValidator (D:\CPAI_Node\demo_project\src\validators\/user.validator.js:8:26)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\CPAI_Node\demo_project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at D:\CPAI_Node\demo_project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CPAI_Node\demo_project\node_modules\raw-body\index.js:238:16)
+    at done (D:\CPAI_Node\demo_project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\CPAI_Node\demo_project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:08:06.925Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:08:27.588Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:08:27.774Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:08:40.760Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:08:56.436Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:08:56.612Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (D:\CPAI_Node\demo_project\src\services\/user.service.js:21:11)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:09:50.901Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (D:\CPAI_Node\demo_project\src\services\/user.service.js:21:11)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:09:59.950Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:10:28.622Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:10:28.806Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:10:49.973Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:10:50.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:11:19.798Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:11:19.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:11:26.174Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:11:26.316Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:11:29.112Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:11:29.279Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:11:45.656Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:11:49.914Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:12:15.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:12:20.832Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:12:21.032Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:12:24.468Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:12:24.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:12:27.204Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:12:27.356Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:12:30.842Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:12:31.003Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:12:54.253Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:12:54.426Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:13:15.758Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:13:15.939Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:13:31.491Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:13:31.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:13:35.757Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:13:35.943Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:13:51.020Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:13:51.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:13:57.350Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:13:57.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:14:12.534Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:14:12.709Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:14:19.639Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:14:19.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:14:28.041Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:14:28.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:14:34.259Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:14:34.414Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:14:40.226Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:14:40.373Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:14:43.326Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:14:43.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:14:46.679Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:14:46.859Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:14:51.612Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:14:51.767Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:14:58.381Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:14:58.537Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:15:13.718Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:15:13.873Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:16:23.703Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:16:23.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:16:31.927Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:16:32.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:17:03.356Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:17:03.499Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:17:11.065Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:17:11.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:17:14.957Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:17:15.103Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:19:59.489Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:19:59.655Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:20:07.911Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:20:08.097Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:20:23.663Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:20:36.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:20:39.768Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:20:39.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:25:37.966Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:25:38.157Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:25:46.946Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:25:47.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:25:49.851Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:25:50.007Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:25:52.795Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:25:52.959Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:26:01.627Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:26:01.790Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:26:33.475Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:26:33.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:26:36.708Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:26:36.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:26:40.159Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:26:40.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:26:49.369Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:26:49.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:26:54.636Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:26:54.786Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:27:05.994Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:27:06.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:27:13.804Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:27:13.955Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "email" has invalid "undefined" value
+    at MSSQLQueryGenerator.whereItemQuery (D:\CPAI_Node\demo_project\node_modules\sequelize\src\dialects\abstract\query-generator.js:2445:13)
+    at D:\CPAI_Node\demo_project\node_modules\sequelize\src\dialects\abstract\query-generator.js:2434:25
+    at Array.forEach (<anonymous>)
+    at MSSQLQueryGenerator.whereItemsQuery (D:\CPAI_Node\demo_project\node_modules\sequelize\src\dialects\abstract\query-generator.js:2432:35)
+    at MSSQLQueryGenerator.getWhereConditions (D:\CPAI_Node\demo_project\node_modules\sequelize\src\dialects\abstract\query-generator.js:2860:19)
+    at MSSQLQueryGenerator.selectQuery (D:\CPAI_Node\demo_project\node_modules\sequelize\src\dialects\abstract\query-generator.js:1460:28)
+    at MSSqlQueryInterface.select (D:\CPAI_Node\demo_project\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (D:\CPAI_Node\demo_project\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Function.findOne (D:\CPAI_Node\demo_project\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users/mayur123@gmail.com/mayur@170901 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:27:54.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:28:15.408Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:28:15.609Z"}
+error: 
+    status - 500 
+    message - TypeError: req.status is not a function
+    at _callee3$ (D:\CPAI_Node\demo_project\src\controllers\/user.controller.js:79:9)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/mayur123@gmail.com/mayur@170901 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-09T11:28:20.374Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-09T11:29:08.976Z"}
+info: Connected to the database. {"timestamp":"2024-05-09T11:29:09.148Z"}
