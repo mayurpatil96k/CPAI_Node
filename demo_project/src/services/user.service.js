@@ -1,6 +1,10 @@
 import { error } from '@hapi/joi/lib/base';
 import sequelize, { DataTypes } from '../config/database';
+import dotenv from 'dotenv';
+dotenv.config();
 const User = require('../models/user')(sequelize, DataTypes);
+
+const jwt = require('jsonwebtoken');
 
 //get all users
 export const getAllUsers = async () => {
@@ -33,7 +37,8 @@ export const login = async (b_email, pass) => {
     }
   });
   if (data) {
-    return true;
+    const token = jwt.sign({email: data.email, role: data.role}, process.env.SECRET_KEY);
+    return token;
   } else {
     return false;
   }

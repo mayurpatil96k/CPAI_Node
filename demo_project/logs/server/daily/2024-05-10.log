@@ -1,0 +1,76 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:01:35.423Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:01:35.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:22:25.116Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:22:25.276Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:29:59.351Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:30:01.523Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:30:01.667Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:30:06.876Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:30:07.016Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:30:28.676Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:30:45.656Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:30:45.814Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:31:36.113Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:31:39.145Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:31:39.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:31:42.938Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:31:43.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:31:45.627Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:31:45.793Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:31:55.512Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:31:55.658Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:35:44.853Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:35:44.989Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:36:12.852Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:36:12.988Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:36:42.943Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:36:43.086Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:39:11.092Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:39:11.242Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:39:37.104Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:39:37.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:40:05.055Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:40:05.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:40:14.078Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:40:14.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:40:35.504Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:40:35.650Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:43:02.590Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:43:02.735Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:45:28.995Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:45:29.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:46:19.861Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:46:20.035Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:49:33.696Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:49:33.856Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:52:35.593Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:52:35.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:53:29.268Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:53:29.420Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (D:\CPAI_Node\demo_project\node_modules\sequelize\src\dialects\mssql\query.js:128:25)
+    at D:\CPAI_Node\demo_project\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MSSqlQueryInterface.select (D:\CPAI_Node\demo_project\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (D:\CPAI_Node\demo_project\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (D:\CPAI_Node\demo_project\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users/mayur123@gmail.com/mayur@170901 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-05-10T05:53:32.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:54:29.783Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:54:29.919Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:55:04.018Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:55:04.150Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:56:32.787Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:56:32.932Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:59:35.695Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:59:35.836Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T05:59:58.266Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T05:59:58.408Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:00:01.976Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:00:02.120Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:04:11.422Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:04:11.609Z"}
