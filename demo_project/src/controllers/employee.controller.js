@@ -59,3 +59,16 @@ export const getbyid = async(req,res,next)=>{
     next(error)
   }
 }
+
+export const deleteUser = async (res,req,next)=>{
+  try{
+    const data = await EmployeeService.deleteEmp(req.params.id);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Employee deleted successfully'
+    })
+  }catch(error){
+    next(error);
+  }
+}
