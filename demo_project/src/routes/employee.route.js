@@ -7,5 +7,6 @@ const router = express.Router();
 
     router.post('', userAuth,newEmployeeValidator, employeeController.addEmployee);
     router.put('/:id', employeeController.updateEmployee);
+    router.get('', employeeController.getAllEmp);
 
 export default router;
