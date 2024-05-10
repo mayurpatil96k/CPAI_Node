@@ -327,3 +327,180 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T0
 info: Connected to the database. {"timestamp":"2024-05-10T09:40:38.739Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T09:40:46.463Z"}
 info: Connected to the database. {"timestamp":"2024-05-10T09:40:46.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T09:51:50.890Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T09:51:51.025Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee5$ (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:65:61)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:63:24)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:284:15
+    at param (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\CPAI_Node\demo_project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\CPAI_Node\demo_project\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\CPAI_Node\demo_project\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/employee/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-05-10T09:52:37.903Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee5$ (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:65:61)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:63:24)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:284:15
+    at param (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\CPAI_Node\demo_project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\CPAI_Node\demo_project\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\CPAI_Node\demo_project\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/employee/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-05-10T09:52:45.700Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T09:53:28.779Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T09:53:28.939Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee5$ (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:65:61)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:63:24)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:284:15
+    at param (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\CPAI_Node\demo_project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\CPAI_Node\demo_project\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\CPAI_Node\demo_project\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/employee/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-05-10T09:53:31.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T09:54:33.524Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T09:54:33.669Z"}

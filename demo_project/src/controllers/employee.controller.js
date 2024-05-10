@@ -60,7 +60,7 @@ export const getbyid = async(req,res,next)=>{
   }
 }
 
-export const deleteUser = async (res,req,next)=>{
+export const deleteUser = async (req,res,next)=>{
   try{
     const data = await EmployeeService.deleteEmp(req.params.id);
     res.status(HttpStatus.ACCEPTED).json({

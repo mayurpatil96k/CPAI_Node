@@ -2815,3 +2815,174 @@ Error: Route.get() requires a callback function but got a [object Undefined]
     at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
     at node:internal/main/run_main_module:28:49 {"date":"Fri May 10 2024 15:09:30 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":101615.14},"process":{"argv":["node","D:\\CPAI_Node\\demo_project\\src\\index.js"],"cwd":"D:\\CPAI_Node\\demo_project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":33451,"external":3096345,"heapTotal":95260672,"heapUsed":71075488,"rss":133824512},"pid":23740,"uid":null,"version":"v20.10.0"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (D:\\CPAI_Node\\demo_project\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.get (D:\\CPAI_Node\\demo_project\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (D:\\CPAI_Node\\demo_project\\src\\routes\\/employee.route.js:11:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\CPAI_Node\\demo_project\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\CPAI_Node\\demo_project\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (D:\\CPAI_Node\\demo_project\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\CPAI_Node\\demo_project\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\CPAI_Node\\demo_project\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (D:\\CPAI_Node\\demo_project\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (D:\\CPAI_Node\\demo_project\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Object.newLoader [as .js] (D:\\CPAI_Node\\demo_project\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.runMain (node:internal/modules/run_main:135:12)\n    at Object.<anonymous> (D:\\CPAI_Node\\demo_project\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-05-10T09:39:30.385Z","trace":[{"column":15,"file":"D:\\CPAI_Node\\demo_project\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":216,"method":"<computed> [as get]","native":false},{"column":19,"file":"D:\\CPAI_Node\\demo_project\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":521,"method":"get","native":false},{"column":12,"file":"D:\\CPAI_Node\\demo_project\\src\\routes\\/employee.route.js","function":null,"line":11,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\CPAI_Node\\demo_project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\CPAI_Node\\demo_project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"D:\\CPAI_Node\\demo_project\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\CPAI_Node\\demo_project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\CPAI_Node\\demo_project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":1,"file":"D:\\CPAI_Node\\demo_project\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":24,"file":"D:\\CPAI_Node\\demo_project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":7,"file":"D:\\CPAI_Node\\demo_project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":135,"method":"runMain","native":false},{"column":12,"file":"D:\\CPAI_Node\\demo_project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":135,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee5$ (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:65:61)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:63:24)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:284:15
+    at param (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\CPAI_Node\demo_project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\CPAI_Node\demo_project\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\CPAI_Node\demo_project\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/employee/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-05-10T09:52:37.903Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee5$ (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:65:61)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:63:24)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:284:15
+    at param (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\CPAI_Node\demo_project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\CPAI_Node\demo_project\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\CPAI_Node\demo_project\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/employee/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-05-10T09:52:45.700Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee5$ (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:65:61)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at deleteUser (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:63:24)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:284:15
+    at param (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\CPAI_Node\demo_project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\CPAI_Node\demo_project\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\CPAI_Node\demo_project\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/employee/1 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-05-10T09:53:31.274Z"}
