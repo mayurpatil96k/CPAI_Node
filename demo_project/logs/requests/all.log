@@ -1987,3 +1987,5 @@ info: ::1 - - [10/May/2024:08:18:03 +0000] "POST /api/v1/employee HTTP/1.1" 500 
 
 info: ::1 - - [10/May/2024:08:18:42 +0000] "POST /api/v1/employee HTTP/1.1" 201 282 "-" "PostmanRuntime/7.37.3"
 
+info: ::1 - - [10/May/2024:08:44:19 +0000] "PUT /api/v1/employee/4 HTTP/1.1" 202 183 "-" "PostmanRuntime/7.37.3"
+

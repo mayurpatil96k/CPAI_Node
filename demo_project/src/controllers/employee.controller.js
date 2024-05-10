@@ -20,3 +20,17 @@ export const addEmployee = async (req, res, next) =>{
         next(error);
       }
 };
+
+export const updateEmployee = async (req,res,next) =>{
+  try{
+    const data = await EmployeeService.updateEmp(req.params.id, req.body);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Employee updated successfully'
+    });
+  }
+  catch(error){
+    next(error);
+  }
+}

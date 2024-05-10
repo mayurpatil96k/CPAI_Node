@@ -5,6 +5,7 @@ import { newEmployeeValidator } from '../validators/employee.validator';
 
 const router = express.Router();
 
-    router.post('', userAuth,newEmployeeValidator, employeeController.addEmployee)
+    router.post('', userAuth,newEmployeeValidator, employeeController.addEmployee);
+    router.put('/:id', employeeController.updateEmployee);
 
 export default router;
