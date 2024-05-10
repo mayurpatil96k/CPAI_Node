@@ -1,6 +1,10 @@
 import express from 'express';
-import userAuth from '../middlewares/auth.middleware';
-import * as employeeController from "../controllers/employee.controller";
-const route = express.Router();
+import * as employeeController from '../controllers/employee.controller';
+import { userAuth } from '../middlewares/auth.middleware';
+import { newEmployeeValidator } from '../validators/employee.validator';
 
-route.post('/', userAuth, employeeController.addEmployee);
+const router = express.Router();
+
+    router.post('', userAuth,newEmployeeValidator, employeeController.addEmployee)
+
+export default router;

@@ -29,11 +29,11 @@ export const newUser = async (body) => {
 
 
 // login cheack
-export const login = async (b_email, pass) => {
+export const login = async (body) => {
   const data = await User.findOne({
     where: {
-      email: b_email,
-      password: pass
+      email: body.email,
+      password: body.password
     }
   });
   if (data) {

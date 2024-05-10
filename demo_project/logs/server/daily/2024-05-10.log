@@ -74,3 +74,232 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T0
 info: Connected to the database. {"timestamp":"2024-05-10T06:00:02.120Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:04:11.422Z"}
 info: Connected to the database. {"timestamp":"2024-05-10T06:04:11.609Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:08:29.782Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:08:29.923Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:15:52.083Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:15:52.218Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:16:02.487Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:16:02.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:16:19.916Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:16:20.059Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:16:44.855Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:16:45.021Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:20:56.074Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:20:56.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:26:20.428Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:26:20.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:26:36.033Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:26:36.194Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:30:21.819Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:31:06.870Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:32:44.220Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:32:53.528Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:37:26.277Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:38:33.185Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:38:43.081Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:38:51.678Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:38:51.809Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:39:55.195Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:42:59.304Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:43:51.387Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:47:12.831Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:48:31.077Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:50:09.647Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:50:56.400Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:51:44.375Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:51:44.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:52:40.733Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:52:40.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:53:58.443Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:53:58.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:54:33.922Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:54:34.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T06:57:37.019Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T06:57:37.228Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T07:02:41.072Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T07:02:41.305Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T07:02:48.570Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T07:02:48.800Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee2$ (D:\CPAI_Node\demo_project\src\services\/user.service.js:24:11)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T07:02:53.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T07:04:21.621Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T07:04:21.835Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee$ (D:\CPAI_Node\demo_project\src\services\/employee.service.js:7:39)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newEmployee (D:\CPAI_Node\demo_project\src\services\/employee.service.js:7:25)
+    at _callee$ (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:6:44)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at addEmployee (D:\CPAI_Node\demo_project\src\controllers\/employee.controller.js:4:25)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:149:13)
+    at _callee$ (D:\CPAI_Node\demo_project\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T07:08:20.462Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T07:09:15.478Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T07:09:15.718Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (D:\CPAI_Node\demo_project\node_modules\sequelize\src\dialects\mssql\query.js:128:25)
+    at D:\CPAI_Node\demo_project\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MSSqlQueryInterface.select (D:\CPAI_Node\demo_project\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (D:\CPAI_Node\demo_project\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (D:\CPAI_Node\demo_project\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/employee 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T07:09:21.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T07:09:36.367Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T07:09:36.590Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (D:\CPAI_Node\demo_project\node_modules\sequelize\src\dialects\mssql\query.js:128:25)
+    at D:\CPAI_Node\demo_project\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at MSSqlQueryInterface.insert (D:\CPAI_Node\demo_project\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at user.save (D:\CPAI_Node\demo_project\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (D:\CPAI_Node\demo_project\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/employee 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T07:09:40.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T07:11:08.324Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T07:11:08.526Z"}
+error: 
+    status - 500 
+    message - Error: Employee already exists
+    at _callee$ (D:\CPAI_Node\demo_project\src\services\/employee.service.js:15:15)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T07:11:24.455Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\CPAI_Node\demo_project\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\CPAI_Node\demo_project\src\middlewares\/auth.middleware.js:24:32)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\CPAI_Node\demo_project\src\middlewares\/auth.middleware.js:14:22)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\CPAI_Node\demo_project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\CPAI_Node\demo_project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\CPAI_Node\demo_project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:328:13)
+    at D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\CPAI_Node\demo_project\node_modules\express\lib\router\index.js:280:10)
+    at D:\CPAI_Node\demo_project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (D:\CPAI_Node\demo_project\node_modules\raw-body\index.js:238:16)
+    at done (D:\CPAI_Node\demo_project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (D:\CPAI_Node\demo_project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/employee 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T07:11:31.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T08:06:50.221Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T08:06:50.420Z"}
+error: 
+    status - 500 
+    message - Error: Employee already exists
+    at _callee$ (D:\CPAI_Node\demo_project\src\services\/employee.service.js:15:15)
+    at tryCatch (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CPAI_Node\demo_project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/employee 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T08:08:40.957Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T08:12:34.256Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T08:12:34.392Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T08:15:49.415Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T08:15:49.574Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T08:16:16.268Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T08:16:16.400Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-05-10T08:17:54.221Z"}
+info: Connected to the database. {"timestamp":"2024-05-10T08:17:54.357Z"}
+error: 
+    status - 500 
+    message - ValidationError: "StartDate" must be in iso format 
+    url - /api/v1/employee 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-05-10T08:18:03.845Z"}

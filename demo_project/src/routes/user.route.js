@@ -12,7 +12,7 @@ router.get('', userController.getAllUsers);
 router.post('', newUserValidator, userController.newUser);
 
 //login
-router.get('/:email/:pass', userController.login)
+router.post('/login', userController.login)
 
 // //route to get a single user by their user id
 // router.get('/:id', userController.getUser);

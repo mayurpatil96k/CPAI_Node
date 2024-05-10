@@ -14,3 +14,57 @@ info: ::1 - - [10/May/2024:05:55:48 +0000] "GET /api/v1/users/mayur123@gmail.com
 
 info: ::1 - - [10/May/2024:05:56:36 +0000] "GET /api/v1/users/mayur123@gmail.com/mayur@170901 HTTP/1.1" 202 206 "-" "PostmanRuntime/7.37.3"
 
+info: ::1 - - [10/May/2024:06:09:33 +0000] "POST /api/v1/users/login HTTP/1.1" 202 45 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:06:10:48 +0000] "POST /api/v1/users/login HTTP/1.1" 202 45 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:06:11:33 +0000] "POST /api/v1/users HTTP/1.1" 201 249 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:06:11:45 +0000] "POST /api/v1/users/login HTTP/1.1" 202 202 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:06:57:06 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:06:57:53 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:06:58:53 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:06:59:05 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:00:28 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:00:54 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:01:22 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:01:27 +0000] "POST /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:01:31 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:02:53 +0000] "POST /api/v1/users HTTP/1.1" 500 94 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:03:41 +0000] "POST /api/v1/users/l HTTP/1.1" 404 47 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:03:49 +0000] "POST /api/v1/users/login HTTP/1.1" 202 202 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:08:20 +0000] "POST /api/v1/employee HTTP/1.1" 500 54 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:09:21 +0000] "POST /api/v1/employee HTTP/1.1" 500 63 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:09:40 +0000] "POST /api/v1/employee HTTP/1.1" 500 156 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:11:19 +0000] "POST /api/v1/employee HTTP/1.1" 201 261 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:11:24 +0000] "POST /api/v1/employee HTTP/1.1" 500 58 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:07:11:31 +0000] "POST /api/v1/employee HTTP/1.1" 500 48 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:08:08:40 +0000] "POST /api/v1/employee HTTP/1.1" 500 58 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:08:08:48 +0000] "POST /api/v1/employee HTTP/1.1" 201 295 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:08:09:34 +0000] "POST /api/v1/employee HTTP/1.1" 201 282 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:08:18:03 +0000] "POST /api/v1/employee HTTP/1.1" 500 70 "-" "PostmanRuntime/7.37.3"
+
+info: ::1 - - [10/May/2024:08:18:42 +0000] "POST /api/v1/employee HTTP/1.1" 201 282 "-" "PostmanRuntime/7.37.3"
+

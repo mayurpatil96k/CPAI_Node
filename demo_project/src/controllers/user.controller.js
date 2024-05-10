@@ -75,7 +75,7 @@ export const newUser = async (req, res, next) => {
 //controller to login
 export const login = async (req,res,next)=>{
   try{
-    const data = await UserService.login(req.params.email,req.params.pass);
+    const data = await UserService.login(req.body);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
