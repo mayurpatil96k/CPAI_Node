@@ -76,3 +76,5 @@ info: ::1 - - [10/May/2024:09:24:07 +0000] "GET /api/v1/employee HTTP/1.1" 404 4
 
 info: ::1 - - [10/May/2024:09:24:19 +0000] "GET /api/v1/employee HTTP/1.1" 202 959 "-" "PostmanRuntime/7.37.3"
 
+info: ::1 - - [10/May/2024:09:40:51 +0000] "GET /api/v1/employee/1 HTTP/1.1" 202 259 "-" "PostmanRuntime/7.37.3"
+

@@ -46,3 +46,16 @@ export const getAllEmp = async (req,res,next)=>{
     next(error);
   }
 }
+
+export const getbyid = async(req,res,next)=>{
+  try{
+    const data = await EmployeeService.getempbyid(req.params.id);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Data fetched Successfully'
+    })
+  }catch(error){
+    next(error)
+  }
+}
